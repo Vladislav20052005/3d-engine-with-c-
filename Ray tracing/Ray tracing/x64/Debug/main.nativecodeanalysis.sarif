@@ -1,0 +1,91 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.38.33135.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/vlad/source/repos/ray tracing/ray tracing/main.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "2dd1f05848ae19082b5c0518768e900ac8c81ae99d82537e65becc33e77c4c2f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/vlad/source/repos/ray tracing/ray tracing/vector3.h"
+          },
+          "hashes": {
+            "sha-256": "5eeafe00a32e3d18e0e20295303624d7ccb11f70f16fc436299557e24beec5ba"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/vlad/source/repos/ray tracing/ray tracing/camera.h"
+          },
+          "hashes": {
+            "sha-256": "2705e55960573fa3b91ca1b3b840d19f3482b3a19e30307580d6ab9cb4ac2b1b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/vlad/source/repos/ray tracing/ray tracing/matrix3.h"
+          },
+          "hashes": {
+            "sha-256": "609fa72a967439972ea462697a8b6eafe30ac56c6bbdc1dd371d22280423cf8f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/vlad/source/repos/ray tracing/ray tracing/linearobject.h"
+          },
+          "hashes": {
+            "sha-256": "9a210c3db59bd8c77f3da4eef8dd065b0c30dbc039e3b3698952ae7c99fea083"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/vlad/source/repos/ray tracing/ray tracing/linearprimitive.h"
+          },
+          "hashes": {
+            "sha-256": "51361938712ffb13a4134525650a57064618beaebe8e48748b014896488e7088"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/vlad/source/repos/ray tracing/ray tracing/material.h"
+          },
+          "hashes": {
+            "sha-256": "8931239e5265118ad0abd069a0b4f53ae1f84e85b545f097637704a0d3cf37f5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/c++libriries/glfw-3.4.bin.win64/glfw/include/glfw/glfw3.h"
+          },
+          "hashes": {
+            "sha-256": "aa370985f6b493bbe0358a36ab49f5780a6397c0209c6d98a62143dea595b73c"
+          }
+        }
+      ]
+    }
+  ]
+}
